@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExercisesActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="95pt"
+        android:layout_height="85pt"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <Button
+            android:id="@+id/intervals_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:width="70pt"
+            android:padding="12dp"
+            android:text="@string/intervals"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/chords_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/intervals_button"
+            android:layout_centerHorizontal="true"
+            android:width="70pt"
+            android:padding="12dp"
+            android:text="@string/chords"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/scales_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chords_button"
+            android:layout_centerHorizontal="true"
+            android:width="70pt"
+            android:padding="12dp"
+            android:text="@string/scales"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <!--<TextView
+        android:id="@+id/email_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout"
+        android:hint="@string/email"
+        android:lineSpacingExtra="5dp"
+        android:paddingTop="30dp"
+        android:textAlignment="center"
+        android:textSize="25sp" />-->
+
+</RelativeLayout>
